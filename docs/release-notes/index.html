@@ -641,12 +641,16 @@
 <h1 id="release-notes">Release Notes</h1>
 <h2 id="version-420">Version 4.2.0</h2>
 <ul>
-<li>Released on February 1, 2025</li>
+<li>Released on February 14, 2025</li>
 <li>Nix Universal SDK functions must now be enabled with a license key using <code>LicenseManager</code> (see <a href="../kotlin/html/-nix%20-universal%20-s-d-k/com.nixsensor.universalsdk/-license-manager/-shared/">Kotlin</a> or <a href="../java/html/-nix%20-universal%20-s-d-k/com.nixsensor.universalsdk/-license-manager/-shared/">Java</a>). For further details, refer to <a href="../activating-license/">Activating the SDK License</a>.</li>
 <li>Existing <code>enum</code> types have added cases related to <code>LicenseManager</code> errors. Refer to the API documentation linked below for additional details.<ul>
 <li><code>CommandStatus/ERROR_LICENSE</code> (see <a href="../kotlin/html/-nix%20-universal%20-s-d-k/com.nixsensor.universalsdk/-command-status/-e-r-r-o-r_-l-i-c-e-n-s-e/">Kotlin</a> or <a href="../java/html/-nix%20-universal%20-s-d-k/com.nixsensor.universalsdk/-command-status/-e-r-r-o-r_-l-i-c-e-n-s-e/">Java</a>)</li>
 <li><code>DeviceScannerState/ERROR_LICENSE</code> (see <a href="../kotlin/html/-nix%20-universal%20-s-d-k/com.nixsensor.universalsdk/-i-device-scanner/-device-scanner-state/-e-r-r-o-r_-l-i-c-e-n-s-e/">Kotlin</a> or <a href="../java/html/-nix%20-universal%20-s-d-k/com.nixsensor.universalsdk/-i-device-scanner/-device-scanner-state/-e-r-r-o-r_-l-i-c-e-n-s-e/">Java</a>)</li>
 <li><code>DeviceStatus/ERROR_LICENSE</code> (see <a href="../kotlin/html/-nix%20-universal%20-s-d-k/com.nixsensor.universalsdk/-device-status/-e-r-r-o-r_-l-i-c-e-n-s-e/">Kotlin</a> or <a href="../java/html/-nix%20-universal%20-s-d-k/com.nixsensor.universalsdk/-device-status/-e-r-r-o-r_-l-i-c-e-n-s-e/">Java</a>)</li>
+</ul>
+</li>
+<li><code>ISpectralData.toDensityData()</code> now returns an optional data type (see <a href="../kotlin/html/-nix%20-universal%20-s-d-k/com.nixsensor.universalsdk/-i-spectral-data/to-density-data.html">Kotlin</a> or <a href="../java/html/-nix%20-universal%20-s-d-k/com.nixsensor.universalsdk/-i-spectral-data/to-density-data.html">Java</a>).<ul>
+<li>The result is <code>null</code> when <code>LicenseFeature/DENSITY_DATA</code> is not provided by the active license.</li>
 </ul>
 </li>
 <li>The dependency on <a href="https://github.com/mik3y/usb-serial-for-android"><code>usb-serial-for-android</code></a> has been changed from 'required' to 'optional'<ul>

@@ -726,7 +726,7 @@
 <p>Device operations are only available if the resulting state is equal to <code>LicenseManagerState/ACTIVE</code>. All other values indicate an error state. Refer to the <code>LicenseManagerState</code> <a href="../kotlin/html/-nix%20-universal%20-s-d-k/com.nixsensor.universalsdk/-license-manager-state/">Kotlin</a> or <a href="../java/html/-nix%20-universal%20-s-d-k/com.nixsensor.universalsdk/-license-manager-state/">Java</a> API documentation for further details.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>You can switch licenses by calling <code>activate()</code> repeated times within a single session. Doing so will invalidate any open device connections. Any connected Nix devices will need to be disconnected and discovered again using an <code>IDeviceScanner</code> after switching licenses.</p>
+<p>You can switch licenses by calling <code>activate()</code> repeated times within a single session. Doing so will invalidate any open device connections. Any connected Nix devices will need to be disconnected and discovered again using a <code>DeviceScanner</code> after switching licenses.</p>
 </div>
 <h3 id="other-license-properties">Other license properties</h3>
 <p>Additional license properties can be queried on <code>LicenseManager.Shared</code>. Note that some properties may be blank or empty depending on your license capabilities.</p>

@@ -885,7 +885,7 @@
 <span class="w">        </span><span class="c1">// At minimum, should check for ERROR_UNAUTHORIZED and </span>
 <span class="w">        </span><span class="c1">// ERROR_LICENSE cases</span>
 <span class="w">        </span><span class="k">when</span><span class="w"> </span><span class="p">(</span><span class="n">status</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<span class="w">            </span><span class="c1">// Device not authorized for this SDK build</span>
+<span class="w">            </span><span class="c1">// Device not authorized for this license UUID</span>
 <span class="w">            </span><span class="n">DeviceStatus</span><span class="p">.</span><span class="na">ERROR_UNAUTHORIZED</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">{</span>
 <span class="w">                </span><span class="c1">// ...</span>
 <span class="w">            </span><span class="p">}</span>
@@ -969,7 +969,7 @@
 <span class="w">        </span><span class="c1">// ERROR_LICENSE cases</span>
 <span class="w">        </span><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">status</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
 <span class="w">            </span><span class="k">case</span><span class="w"> </span><span class="n">ERROR_UNAUTHORIZED</span><span class="p">:</span>
-<span class="w">                </span><span class="c1">// Device not authorized for this SDK build</span>
+<span class="w">                </span><span class="c1">// Device not authorized for this license UUID</span>
 <span class="w">                </span><span class="c1">// ...</span>
 <span class="w">                </span><span class="k">break</span><span class="p">;</span>
 <span class="w">            </span><span class="k">case</span><span class="w"> </span><span class="n">ERROR_LICENSE</span><span class="p">:</span>

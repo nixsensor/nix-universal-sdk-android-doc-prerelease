@@ -948,6 +948,12 @@
 <span class="w">                </span><span class="c1">// ...        </span>
 <span class="w">            </span><span class="p">}</span>
 
+<span class="w">            </span><span class="n">CommandStatus</span><span class="p">.</span><span class="na">WARNING_TEMPERATURE</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="c1">// Completed successfully, but ambient temperature is outside</span>
+<span class="w">                </span><span class="c1">// of the recommended range</span>
+<span class="w">                </span><span class="c1">// ...</span>
+<span class="w">            </span><span class="p">}</span>
+
 <span class="w">            </span><span class="n">CommandStatus</span><span class="p">.</span><span class="na">ERROR_SCAN_DELTA</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">{</span>
 <span class="w">                </span><span class="c1">// Operation failed because the measured value of the </span>
 <span class="w">                </span><span class="c1">// reference tile is too far from the expected value</span>
@@ -1018,6 +1024,11 @@
 <span class="w">    </span><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">commandStatus</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
 <span class="w">        </span><span class="k">case</span><span class="w"> </span><span class="n">SUCCESS</span><span class="p">:</span>
 <span class="w">            </span><span class="c1">// Successful operation</span>
+<span class="w">            </span><span class="c1">// ...</span>
+<span class="w">            </span><span class="k">break</span><span class="p">;</span>
+<span class="w">        </span><span class="k">case</span><span class="w"> </span><span class="n">WARNING_TEMPERATURE</span><span class="p">:</span>
+<span class="w">            </span><span class="c1">// Completed successfully, but ambient temperature is outside</span>
+<span class="w">            </span><span class="c1">// of the recommended range</span>
 <span class="w">            </span><span class="c1">// ...</span>
 <span class="w">            </span><span class="k">break</span><span class="p">;</span>
 <span class="w">        </span><span class="k">case</span><span class="w"> </span><span class="n">ERROR_SCAN_DELTA</span><span class="p">:</span>
@@ -1207,7 +1218,7 @@
 </div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>The <a href="../kotlin/html/-nix%20-universal%20-s-d-k/com.nixsensor.universalsdk/-i-device-compat/provides-density.html"><code>providesDensity</code></a> and <a href="../kotlin/html/-nix%20-universal%20-s-d-k/com.nixsensor.universalsdk/-i-device-compat/provides-spectral.html"><code>providesSpectral</code></a> properties indicate whether or not the hardware device is capable of providing these data types. However, these values will only be available if these features are enabled by the current license. See <a href="../activating-license/#other-license-properties">Other license properties</a> for more details.</p>
+<p>The <a href="../kotlin/html/-nix%20-universal%20-s-d-k/com.nixsensor.universalsdk/-i-device-compat/provides-density.html"><code>providesDensity</code></a> and <a href="../kotlin/html/-nix%20-universal%20-s-d-k/com.nixsensor.universalsdk/-i-device-compat/provides-spectral.html"><code>providesSpectral</code></a> properties indicate whether or not the hardware device is capable of providing these data types. However, these measurements will only be available if these features are enabled by the current license. See <a href="../activating-license/#other-license-properties">Other license properties</a> for more details.</p>
 </div>
 <h2 id="next-steps">Next steps</h2>
 <ul>
