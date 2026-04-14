@@ -98,7 +98,7 @@ $dokka.location:com.nixsensor.universalsdk/DeviceCompat/interfaceType/#/Pointing
 $dokka.location:com.nixsensor.universalsdk/DeviceCompat/invalidateFieldCalibration/#com.nixsensor.universalsdk.OnDeviceResultListener/PointingToDeclaration/-nix -universal -s-d-k/com.nixsensor.universalsdk/-device-compat/invalidate-field-calibration.html
 $dokka.location:com.nixsensor.universalsdk/DeviceCompat/isTileStringValid/#kotlin.String/PointingToDeclaration/-nix -universal -s-d-k/com.nixsensor.universalsdk/-device-compat/is-tile-string-valid.html
 $dokka.location:com.nixsensor.universalsdk/DeviceCompat/ledTest/#com.nixsensor.universalsdk.OnDeviceResultListener/PointingToDeclaration/-nix -universal -s-d-k/com.nixsensor.universalsdk/-device-compat/led-test.html
-$dokka.location:com.nixsensor.universalsdk/DeviceCompat/measure/#com.nixsensor.universalsdk.OnDeviceResultListener#kotlin.Array[com.nixsensor.universalsdk.ScanMode]/PointingToDeclaration/-nix -universal -s-d-k/com.nixsensor.universalsdk/-device-compat/measure.html
+$dokka.location:com.nixsensor.universalsdk/DeviceCompat/measure/#com.nixsensor.universalsdk.OnDeviceResultListener#vararg(com.nixsensor.universalsdk.ScanMode)/PointingToDeclaration/-nix -universal -s-d-k/com.nixsensor.universalsdk/-device-compat/measure.html
 $dokka.location:com.nixsensor.universalsdk/DeviceCompat/note/#/PointingToDeclaration/-nix -universal -s-d-k/com.nixsensor.universalsdk/-device-compat/note.html
 $dokka.location:com.nixsensor.universalsdk/DeviceCompat/powerState/#/PointingToDeclaration/-nix -universal -s-d-k/com.nixsensor.universalsdk/-device-compat/power-state.html
 $dokka.location:com.nixsensor.universalsdk/DeviceCompat/referenceDate/#/PointingToDeclaration/-nix -universal -s-d-k/com.nixsensor.universalsdk/-device-compat/reference-date.html
@@ -267,7 +267,7 @@ $dokka.location:com.nixsensor.universalsdk/IDeviceCompat/isFeatureSupported/#com
 $dokka.location:com.nixsensor.universalsdk/IDeviceCompat/isModeSupported/#com.nixsensor.universalsdk.ScanMode/PointingToDeclaration/-nix -universal -s-d-k/com.nixsensor.universalsdk/-i-device-compat/is-mode-supported.html
 $dokka.location:com.nixsensor.universalsdk/IDeviceCompat/isTileStringValid/#kotlin.String/PointingToDeclaration/-nix -universal -s-d-k/com.nixsensor.universalsdk/-i-device-compat/is-tile-string-valid.html
 $dokka.location:com.nixsensor.universalsdk/IDeviceCompat/ledTest/#com.nixsensor.universalsdk.OnDeviceResultListener/PointingToDeclaration/-nix -universal -s-d-k/com.nixsensor.universalsdk/-i-device-compat/led-test.html
-$dokka.location:com.nixsensor.universalsdk/IDeviceCompat/measure/#com.nixsensor.universalsdk.OnDeviceResultListener#kotlin.Array[com.nixsensor.universalsdk.ScanMode]/PointingToDeclaration/-nix -universal -s-d-k/com.nixsensor.universalsdk/-i-device-compat/measure.html
+$dokka.location:com.nixsensor.universalsdk/IDeviceCompat/measure/#com.nixsensor.universalsdk.OnDeviceResultListener#vararg(com.nixsensor.universalsdk.ScanMode)/PointingToDeclaration/-nix -universal -s-d-k/com.nixsensor.universalsdk/-i-device-compat/measure.html
 $dokka.location:com.nixsensor.universalsdk/IDeviceCompat/name/#/PointingToDeclaration/-nix -universal -s-d-k/com.nixsensor.universalsdk/-i-device-compat/name.html
 $dokka.location:com.nixsensor.universalsdk/IDeviceCompat/note/#/PointingToDeclaration/-nix -universal -s-d-k/com.nixsensor.universalsdk/-i-device-compat/note.html
 $dokka.location:com.nixsensor.universalsdk/IDeviceCompat/powerState/#/PointingToDeclaration/-nix -universal -s-d-k/com.nixsensor.universalsdk/-i-device-compat/power-state.html
@@ -586,4 +586,3 @@ $dokka.location:com.nixsensor.universalsdk/SpectralData/toColorData/#com.nixsens
 $dokka.location:com.nixsensor.universalsdk/SpectralData/toRgbValue/#com.nixsensor.universalsdk.ReferenceWhite/PointingToDeclaration/-nix -universal -s-d-k/com.nixsensor.universalsdk/-spectral-data/to-rgb-value.html
 $dokka.location:com.nixsensor.universalsdk/SpectralData/value/#/PointingToDeclaration/-nix -universal -s-d-k/com.nixsensor.universalsdk/-spectral-data/value.html
 com.nixsensor.universalsdk
-
